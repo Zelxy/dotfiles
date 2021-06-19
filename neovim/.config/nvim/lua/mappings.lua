@@ -37,3 +37,6 @@ map("n", "<C-s>", [[ <Cmd> w <CR>]], opt)
 -- Commenter Keybinding
 map("n", "<leader>/", ":CommentToggle<CR>", {noremap = true, silent = true})
 map("v", "<leader>/", ":CommentToggle<CR>", {noremap = true, silent = true})
+
+-- Maps key to format
+map("n", "<A-S-f>", ":Neoformat<CR>", opt)

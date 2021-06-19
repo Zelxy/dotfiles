@@ -48,6 +48,8 @@ return packer.startup(
         use "kdav5758/TrueZen.nvim"
         use "folke/which-key.nvim"
         use {"lukas-reineke/indent-blankline.nvim", branch = "lua"}
+        use 'sindrets/diffview.nvim'
+
     end,
     {
         display = {
